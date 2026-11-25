@@ -15,6 +15,7 @@ if ($_POST) {
 ?>
 
 <form method="post">
+    <h1>Cadastre uma música</h1>
     <input name="titulo" placeholder="Título da Música" required><br>
     <input name="artista" placeholder="Artista / Banda" required><br>
     <input name="genero" placeholder="Gênero" required><br>

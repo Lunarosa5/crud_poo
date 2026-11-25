@@ -19,6 +19,7 @@ $musica = $repo->buscarPorId($_GET['id']);
 ?>
 
 <form method="post">
+    <h1>Edite o cadastro da música</h1>
     <input type="hidden" name="id" value="<?= $musica['id'] ?>">
     <input name="titulo" value="<?= $musica['titulo'] ?>"><br>
     <input name="artista" value="<?= $musica['artista'] ?>"><br>
