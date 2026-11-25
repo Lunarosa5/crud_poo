@@ -16,7 +16,7 @@ $musicas = $repo->listar();
         nav a { margin-right: 15px; text-decoration: none; font-weight: bold; }
         table { border-collapse: collapse; width: 100%; margin-top: 20px; }
         th, td { border: 1px solid #2c7e8f; padding: 8px; }
-        th { background: #599fad; }
+        th { background: #599fad; color: white;}
     </style>
 </head>
 <body>
